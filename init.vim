@@ -65,6 +65,7 @@ nmap <Leader>glo :Git log --all --graph --decorate --oneline<CR>
 nmap <Leader>gs :Git status<CR>
 nmap <Leader>ga :Git add .<CR>
 nmap <Leader>gd :Git diff<CR>
+nmap <Leader>gc :Git commit -a<CR>
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
