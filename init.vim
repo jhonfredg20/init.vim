@@ -8,7 +8,7 @@ set ruler
 set cursorline
 set encoding=utf-8
 set showmatch
-set sw=4
+set sw=2
 set relativenumber
 set laststatus=2
 set noshowmode
@@ -57,6 +57,14 @@ nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR> 
 nmap <Leader>wq :wq<CR>
 nmap <Leader>qq :q!<CR>
+
+" Comandos personalizados Git
+
+nmap <Leader>gl :Git log --all --graph --decorate<CR>
+nmap <Leader>glo :Git log --all --graph --decorate --oneline<CR>
+nmap <Leader>gs :Git status<CR>
+nmap <Leader>ga :Git add .<CR>
+nmap <Leader>gd :Git diff<CR>
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
