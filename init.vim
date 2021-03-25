@@ -70,6 +70,8 @@ nmap <leader>gps :Git push origin
 nmap <leader>gpl :Git pull origin 
 nmap <Leader>gb :Git branch 
 nmap <Leader>gch :Git checkout 
+nmap <Leader>gsh :Git stash<CR>
+nmap <Leader>gshp :Git stah pop<CR>
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
